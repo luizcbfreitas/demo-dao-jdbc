@@ -14,6 +14,7 @@ import db.DbIntegrityException;
 import model.dao.DepartmentDao;
 import model.entities.Department;
 
+
 public class DepartmentDaoJDBC implements DepartmentDao {
 
 	private Connection conn;
